@@ -7,6 +7,6 @@ ___
 1.2(必要ならば)　package.json・package-lock.jsonの`"version": "0.0.0"`を変更  
 2 コマンドプロンプト等で`npm i`を実行  
 3 コマンドプロンプト等で`npm run start`を実行  
-4 http://localhost:3000/test/test を開く  
+4 http://localhost:3000/ を開く  
 
 test　と表示されていればいい
