@@ -1,8 +1,8 @@
 import express = require('express')
-import * as usersRouter from "./routes/users";
+import * as testRouter from "./routes/testRouter";
 
 const app = express();
-app.get('/', usersRouter.hello);
-app.get('/test/:text', usersRouter.test);
+app.get('/', testRouter.hello);
+app.get('/test/:text', testRouter.testText);
 
 export default app;
